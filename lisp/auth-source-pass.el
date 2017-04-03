@@ -159,11 +159,6 @@ CONTENTS is the contents of a password-store formatted file."
      (hostname hostname)
      (t host))))
 
-(defun auth-source-pass--remove-directory-name (name)
-  "Remove directories from NAME.
-E.g., if NAME is \"foo/bar\", return \"bar\"."
-  (replace-regexp-in-string ".*/" "" name))
-
 (defun auth-source-pass--do-debug (&rest msg)
   "Call `auth-source-do-debug` with MSG and a prefix."
   (apply #'auth-source-do-debug
