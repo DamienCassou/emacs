@@ -563,7 +563,7 @@ Here are configurations depending on your answers:
 @multitable {111} {222} {333} {configuration configuration configuration}
 @item @b{1} @tab @b{2} @tab @b{3} @tab Configuration
 @item Yes @tab Yes @tab Yes @tab Set up gpg-agent.
-@item Yes @tab Yes @tab No @tab You can't, without gpg-agenz.
+@item Yes @tab Yes @tab No @tab You can't, without gpg-agent.
 @item Yes @tab No @tab Yes @tab Set up gpg-agent.
 @item Yes @tab No @tab No @tab You can't, without gpg-agent.
 @item No @tab Yes @tab Yes @tab Set up elisp passphrase cache.
